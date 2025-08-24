@@ -59,6 +59,7 @@ import DevTools from '../examples/DevTools';
 import Redux from '../examples/Redux';
 import MovingHandles from '../examples/MovingHandles';
 import DetachedHandle from '../examples/DetachedHandle';
+import AwsArchitecture from '../examples/AwsArchitecture';
 
 export interface IRoute {
   name: string;
@@ -371,6 +372,11 @@ const routes: IRoute[] = [
     name: 'useKeyPress',
     path: 'use-key-press',
     component: UseKeyPress,
+  },
+  {
+    name: 'AWS Architecture',
+    path: 'aws-architecture',
+    component: AwsArchitecture,
   },
 ];
 
